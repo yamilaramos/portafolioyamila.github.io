@@ -810,7 +810,7 @@ nav, ul{ list-style: none;}
 
     .mockup-principal{
        position: absolute;
-       bottom: 8%;
+       bottom: 6%;
        left: 8%;
        width: 82%;
     }
@@ -821,7 +821,7 @@ nav, ul{ list-style: none;}
 
     .hero{
         background-color: #3b2a19;
-        background-image: url('./img/hero-mobile.png');/* hero mobile */
+        background-image: url('img/hero-mobile.png');/* hero mobile */
         flex-direction:column;
         padding:40px 20px;
         justify-content: flex-start;
