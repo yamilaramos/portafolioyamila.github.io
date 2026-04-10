@@ -723,7 +723,7 @@ nav, ul{ list-style: none;}
     }
 
     .w-42, .w-45{
-        width: 90%;
+        width: 85%;
     }
 
     .w-50, .w-55, .w-80{
@@ -821,7 +821,7 @@ nav, ul{ list-style: none;}
 
     .hero{
         background-color: #3b2a19;
-        background-image: url('/img/hero-mobile.png');/* hero mobile */
+        background-image: url('./img/hero-mobile.png');/* hero mobile */
         flex-direction:column;
         padding:40px 20px;
         justify-content: flex-start;
