@@ -821,7 +821,7 @@ nav, ul{ list-style: none;}
 
     .hero{
         background-color: #3b2a19;
-        background-image: url('img/hero-mobile.png');/* hero mobile */
+        background-image: url('/img/hero-mobile.png');/* hero mobile */
         flex-direction:column;
         padding:40px 20px;
         justify-content: flex-start;
@@ -883,7 +883,7 @@ nav, ul{ list-style: none;}
     }
 
     .hero-sobremi{
-        background-image: url('img/timeline-mobile.png');
+        background-image: url('/img/timeline-mobile.png');
         border-radius: 0%;
         height: 100%;
         border-bottom: none;
