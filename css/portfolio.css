@@ -883,10 +883,13 @@ nav, ul{ list-style: none;}
     }
 
     .hero-sobremi{
-        background-image: url('./img/timeline-mobile.png');
+        background-image: url('../img/timeline-mobile.png');
         border-radius: 0%;
         height: 100%;
         border-bottom: none;
+      background-size: cover;
+      background-position: center;
+      
     }
 
     .btn-cv-mobile{
