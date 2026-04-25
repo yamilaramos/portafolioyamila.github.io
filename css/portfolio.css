@@ -865,7 +865,7 @@ nav, ul{ list-style: none;}
         margin-bottom: 15px;
     }
 
-    .soplo-de-vida, .timeline-cards, .light-studio, .hydrangea{
+    .soplo-de-vida, .timeline-cards, .light-studio, .hydrangea, .materia{
         flex-direction:column;
     }
     
@@ -873,7 +873,7 @@ nav, ul{ list-style: none;}
         flex-direction: row;
     }
 
-    .materia, .ada{
+    .ada,{
         flex-direction: column-reverse;
     }
 
