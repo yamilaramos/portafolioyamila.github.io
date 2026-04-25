@@ -731,7 +731,7 @@ nav, ul{ list-style: none;}
     }
 
     .hero-materia, .hero-ada, .hero-soplo{
-        height: 30vh;
+        height: 35vh;
         border-top: #000000 1px solid;
         border-bottom: #000000 1px solid;
     }
@@ -865,7 +865,7 @@ nav, ul{ list-style: none;}
         margin-bottom: 15px;
     }
 
-    .soplo-de-vida, .timeline-cards, .light-studio, .hydrangea, .materia{
+    .timeline-cards, .light-studio, .hydrangea, .materia{
         flex-direction:column;
     }
     
@@ -873,7 +873,7 @@ nav, ul{ list-style: none;}
         flex-direction: row;
     }
 
-    .ada,{
+    .ada, .soplo-de-vida{
         flex-direction: column-reverse;
     }
 
