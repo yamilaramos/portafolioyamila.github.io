@@ -731,7 +731,7 @@ nav, ul{ list-style: none;}
     }
 
     .hero-materia, .hero-ada, .hero-soplo{
-        height: 27vh;
+        height: 30vh;
         border-top: #000000 1px solid;
         border-bottom: #000000 1px solid;
     }
@@ -883,7 +883,7 @@ nav, ul{ list-style: none;}
     }
 
     .hero-sobremi{
-        background-image: url('/img/timeline-mobile.png');
+        background-image: url('./img/timeline-mobile.png');
         border-radius: 0%;
         height: 100%;
         border-bottom: none;
