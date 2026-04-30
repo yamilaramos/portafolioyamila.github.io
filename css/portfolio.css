@@ -16,10 +16,17 @@ html {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
     -webkit-user-drag: none;
     user-select: none;
     pointer-events: none;
+}
+
+.titulo-portafolio img {
+    max-width: 100%;
+    height: auto;
 }
 
 iframe{ width: 100%;}
