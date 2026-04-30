@@ -7,7 +7,10 @@
     .titulo-portafolio{
         width: 65%;
     }
-    
+
+    .btn-cv:hover{
+        color: white;
+    }
     .fade-in-down{
         animation: none !important;
         opacity: 1;
