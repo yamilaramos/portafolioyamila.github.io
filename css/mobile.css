@@ -1,4 +1,13 @@
 @media screen and (max-width:768px){
+
+    header{
+        height: 60px;
+    }
+    
+    .titulo-portafolio{
+        flex:0 0 45%;
+    }
+    
     .fade-in-down{
         animation: none !important;
         opacity: 1;
