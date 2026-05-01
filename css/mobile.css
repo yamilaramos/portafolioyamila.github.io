@@ -60,8 +60,10 @@
 
     .hero-materia, .hero-ada, .hero-soplo{
         height: 35dvh;
-        border-top: none;
-        border-bottom: #000000 1px solid;
+        border-radius: 15px;
+        margin: auto;
+        width: 90%;
+        border-bottom: #000000 2px solid;
     }
 
     .f-size-36{
