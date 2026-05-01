@@ -137,9 +137,7 @@ nav.active{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
 
-    .hamburguesa img{
         width: 60px;
         height: 60px;
         bottom: 4px;
