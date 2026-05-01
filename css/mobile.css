@@ -388,8 +388,9 @@ nav.active{
     }
 
     .btn-cv-mobile img{
-        width: 20px;
-        height: 20px;
+        width: 21px;
+        height: 21px;
+        padding-bottom:1px;
         object-fit: contain;
     }
     
@@ -489,7 +490,15 @@ nav.active{
     }
 
     .card{
-        background-color: rgba(0, 0, 0, 0.285); /* 350 */ 
+        background: rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+
+        border: 1px solid rgba(255, 255, 255, 0.073);
+        box-shadow: 
+            0 8px 32px rgba(0, 0, 0, 0.3),
+            inset 0 1px 1px rgba(255, 255, 255, 0.2);
+        
         border-radius: 0px 20px 20px 20px;
         position: relative;
     }
