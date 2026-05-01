@@ -73,30 +73,31 @@
         font-size: 30px;
     }
 
-    nav{
-        position: fixed;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        height: calc(100vh - 60px);
-    
-        background: rgba(0,0,0,0.9);
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-        opacity: 0;
-        pointer-events: none;
-    
-        transition: 0.3s ease;
-    }
+nav{
+    position: fixed;
+    top: 60px;
+    left:0;
+    width:100%;
+    height: calc(100vh - 60px);
 
-    nav.active{
-        max-height: 100vh;
-        opacity:1;
-        pointer-events: auto;
-    }
+    background: rgba(0,0,0,0.9);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;   /* 👈 clave */
+    pointer-events: none;
+
+    transition: 0.3s ease;
+}
+
+nav.active{
+    opacity:1;
+    visibility: visible;  /* 👈 clave */
+    pointer-events: auto;
+}
 
     body.menu-open,
     html.menu-open {
