@@ -135,7 +135,7 @@ nav.active{
 
         width: 65px;
         height: 65px;
-        bottom: 8px;
+        bottom: 10px;
     }
 
     .icono{
@@ -250,14 +250,11 @@ nav.active{
         margin-top: 15px;
         margin-bottom: 20px;
         line-height: 20px;
-        border-left: #EBA625 solid 2px;
-        padding-left: 20px;
     }
 
     .timeline-mobile{
         position: relative;
         padding-top: 10%;
-        /* padding-bottom: 2%; */
     }
 
     /* Línea */
