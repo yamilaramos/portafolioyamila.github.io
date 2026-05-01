@@ -7,11 +7,6 @@
     .btn-cv-mobile:hover{
         color: white;
     }
-    .fade-in-down{
-        animation: none !important;
-        opacity: 1;
-        transform: none;
-    }
 
     .fondo p{
         font-size: 16px;
