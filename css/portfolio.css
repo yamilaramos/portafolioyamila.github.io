@@ -49,7 +49,7 @@ a:hover{ color: black; transition: ease; }
   bottom: -2px;
 
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: #EBA625;
 
   transform: scaleX(0);
@@ -60,6 +60,7 @@ a:hover{ color: black; transition: ease; }
 
 .animacion:hover::after {
   transform: scaleX(1);
+  height: 3px;
 }
 
 .contenedor{
