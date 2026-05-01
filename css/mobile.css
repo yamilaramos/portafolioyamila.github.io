@@ -246,10 +246,10 @@ nav.active{
         margin: auto;
         font-size: 18px;
         text-align: left;
-        max-width: 85%;
+        max-width: 90%;
         margin-top: 15px;
         margin-bottom: 20px;
-        line-height: 20px;
+        line-height: 25px;
     }
 
     .timeline-mobile{
@@ -400,6 +400,7 @@ nav.active{
     .texto-seccion{
         font-size: 18px;
         text-align: left;
+        line-height: 25px;
         hyphens: auto;
         overflow-wrap: break-word;
         max-width: 90%;
@@ -429,12 +430,14 @@ nav.active{
     .back-to-top{
         right: 15px;
         bottom: 15px;
-        width: 36px;
-        height: 34px;
+        width: 38px;
+        height: 36px;
     }
 
     .back-to-top img{
         width: 26px;
+        margin: auto;
+        padding-top: 0px;
     }
 
     .timeline{
