@@ -211,7 +211,7 @@ nav.active{
     }
 
     .titulo{
-        width: 75%;
+        width: 70%;
         margin: 0;
         margin-bottom: 10px;
         background-color: rgba(0, 0, 0, 0.350);
@@ -240,7 +240,7 @@ nav.active{
     .texto-sobremi{
         margin: auto;
         font-size: 18px;
-        text-align: center;
+        text-align: left;
         max-width: 90%;
         margin-top: 15px;
         margin-bottom: 20px;
