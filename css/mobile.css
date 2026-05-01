@@ -246,6 +246,8 @@
 
     .timeline-mobile{
         position: relative;
+        padding-top: 8%;
+        padding-bottom: 2%;
     }
 
     /* Línea */
@@ -424,10 +426,6 @@
 
     .timeline{
     display: none;
-    }
-   
-    .timeline-mobile{
-        padding-top: 6%;
     }
 
     .card{
