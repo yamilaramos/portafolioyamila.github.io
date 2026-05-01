@@ -193,12 +193,22 @@ nav.active{
 
     .hero{
         background-color: #3b2a19;
-        background-image: url('../img/hero-mobile.png');/* hero mobile */
+         background: 
+        linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.4) 40%,
+        rgba(0, 0, 0, 0.1) 100%
+        ),
+        url('../img/hero-mobile.png');
+        
         flex-direction:column;
         padding:40px 20px;
         justify-content: flex-start;
         position: relative;
         z-index: 1;
+         background-size: cover;
+         background-position: top left;
     }
 
     .hero > div{
