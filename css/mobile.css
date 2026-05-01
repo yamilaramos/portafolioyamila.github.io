@@ -398,7 +398,8 @@ nav.active{
         text-align: left;
         hyphens: auto;
         overflow-wrap: break-word;
-        max-width: 25ch; 
+        max-width: 90%;
+       /*  max-width: 25ch;  */
 
         margin-left: 2%;
         margin-bottom: 16px;
