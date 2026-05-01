@@ -219,7 +219,7 @@ nav.active{
         width: 65%;
         margin: 0;
         margin-bottom: 10px;
-        background: rgba(0, 0, 0, 0.08);
+        background: rgba(0, 0, 0, 0.350);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
 
@@ -236,7 +236,7 @@ nav.active{
     .presentacion{
         margin: auto;
         font-size: 18px;
-        background: rgba(0, 0, 0, 0.08);
+        background: rgba(0, 0, 0, 0.350);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
 
@@ -323,11 +323,6 @@ nav.active{
         box-shadow:
             0 253px 0 white,
             0 506px 0 white; /* doble de px */
-    }
-
-    .card{
-        position: relative;
-        margin-bottom: 3%;
     }
 
     .fondo{
@@ -517,6 +512,8 @@ nav.active{
         
         border-radius: 0px 20px 20px 20px;
         position: relative;
+
+        margin-bottom: 3%;
     }
 
     .card p{
