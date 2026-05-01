@@ -140,7 +140,7 @@ nav.active{
 
         width: 60px;
         height: 60px;
-        bottom: 4px;
+        bottom: 8px;
     }
 
     .icono{
@@ -245,7 +245,7 @@ nav.active{
     .timeline-mobile{
         position: relative;
         padding-top: 10%;
-        padding-bottom: 2%;
+        /* padding-bottom: 2%; */
     }
 
     /* Línea */
@@ -307,7 +307,7 @@ nav.active{
     .timeline-cards > div{
         width: 82%;
         margin: auto;
-        margin-bottom: 10%;
+        margin-bottom: 12%;
     }
 
     .hero-sobremi{
