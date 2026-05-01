@@ -219,7 +219,16 @@ nav.active{
         width: 65%;
         margin: 0;
         margin-bottom: 10px;
-        background-color: rgba(0, 0, 0, 0.350);
+        background: rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+
+        border: 1px solid rgba(255, 255, 255, 0.073);
+        box-shadow: 
+            0 8px 32px rgba(0, 0, 0, 0.3),
+            inset 0 1px 1px rgba(255, 255, 255, 0.2);
+        
+       
         border-radius: 16px 16px 16px 2px;
         padding: 8px;
     }
@@ -227,7 +236,14 @@ nav.active{
     .presentacion{
         margin: auto;
         font-size: 18px;
-        background-color: rgba(0, 0, 0, 0.350);
+        background: rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+
+        border: 1px solid rgba(255, 255, 255, 0.073);
+        box-shadow: 
+            0 8px 32px rgba(0, 0, 0, 0.3),
+            inset 0 1px 1px rgba(255, 255, 255, 0.2);
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.652);
         padding: 10px 12px 10px 15px;
         border-radius: 16px 16px 16px 2px;
@@ -490,7 +506,7 @@ nav.active{
     }
 
     .card{
-        background: rgba(0, 0, 0, 0.08);
+        background: rgba(0, 0, 0, 0.350);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
 
