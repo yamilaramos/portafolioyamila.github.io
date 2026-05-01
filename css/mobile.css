@@ -215,6 +215,8 @@ nav.active{
         margin: 0;
         margin-bottom: 10px;
         background-color: rgba(0, 0, 0, 0.350);
+        border-radius: 21px 21px 21px 2px;
+        padding: 8px;
     }
 
     .presentacion{
@@ -222,6 +224,8 @@ nav.active{
         font-size: 18px;
         background-color: rgba(0, 0, 0, 0.350);
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.652);
+        padding: 8px 8px 10px 20px;
+        border-radius: 21px 21px 21px 2px;
     }
 
     .salto-mobile{
