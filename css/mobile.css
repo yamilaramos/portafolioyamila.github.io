@@ -240,11 +240,6 @@ nav.active{
         max-width: 90%;
         margin-top: 15px;
         margin-bottom: 20px;
-        
-        max-width: 27ch;
-
-        widows: 0;
-        orphans: 0;
     }
 
     .timeline-mobile{
