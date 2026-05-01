@@ -179,15 +179,13 @@
 
     .btn-cv, .locacion {display:none;}
 
-    #titulo-portafolio{
-        flex:0 0 45%;
+    .t-padding{
+        padding-top: none;
     }
 
     .h-100vh{
         height: fit-content;
     }
-
-
     .contenedor{
         width:100%;
         padding:0;
