@@ -536,7 +536,7 @@ nav.active{
     align-items: start;
 }
 
-.fade-modern-load{
+.fade-in-down, .fade-modern-load{
         opacity: 0;
         transform: translateY(-8px);
         transition: all 0.25s ease;
