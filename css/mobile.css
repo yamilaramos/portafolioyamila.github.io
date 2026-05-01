@@ -298,7 +298,10 @@
         position: relative;
         margin-bottom: 3%;
     }
-    
+
+    .fondo{
+        margin-bottom: 5%;
+    }
 
     .timeline-cards, .hydrangea, .materia, .ada{
         flex-direction:column;
