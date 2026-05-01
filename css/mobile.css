@@ -3,10 +3,6 @@
     header{
         height: 60px;
     }
-    
-    .w-12{
-        width: 90%;
-    }
 
     .btn-cv-mobile:hover{
         color: white;
@@ -48,6 +44,7 @@
        max-width: 500px;
     }
 
+    .w-12,
     .w-44,
     .w-50,
     .w-60,
@@ -176,7 +173,7 @@
     .btn-cv, .locacion {display:none;}
 
     .t-padding{
-        padding-top: 0px;
+        padding-top: 6px;
     }
 
     .h-100vh{
