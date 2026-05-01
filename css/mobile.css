@@ -208,7 +208,7 @@ nav.active{
         position: relative;
         z-index: 1;
          background-size: cover;
-         background-position: top left;
+         background-position: top center;
     }
 
     .hero > div{
