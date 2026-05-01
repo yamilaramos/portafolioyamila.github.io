@@ -139,9 +139,10 @@ nav.active{
         justify-content: center;
     }
 
-    .hamburguesa{
+    .hamburguesa img{
         width: 60px;
         height: 60px;
+        bottom: 4px;
     }
 
     .icono{
