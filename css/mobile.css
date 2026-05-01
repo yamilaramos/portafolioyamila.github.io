@@ -250,6 +250,8 @@ nav.active{
         margin-top: 15px;
         margin-bottom: 20px;
         line-height: 20px;
+        border-left: #EBA625 solid 2px;
+        padding-left: 20px;
     }
 
     .timeline-mobile{
