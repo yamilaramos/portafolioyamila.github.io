@@ -4,6 +4,10 @@
         height: 60px;
     }
 
+    .m-bottom{
+        margin-bottom: 6%;
+    }
+
     .btn-cv-mobile:hover{
         color: white;
     }
@@ -44,7 +48,6 @@
        max-width: 500px;
     }
 
-    .w-12,
     .w-44,
     .w-50,
     .w-60,
@@ -59,7 +62,8 @@
     .w-45{
         width: 95%;
     }
-    .w-50, .w-55, .w-80{
+    
+    .w-12, .w-50, .w-55, .w-80{
         width: 90%;
     }
 
