@@ -246,7 +246,7 @@
 
     .timeline-mobile{
         position: relative;
-        padding-top: 8%;
+        padding-top: 10%;
         padding-bottom: 2%;
     }
 
@@ -309,7 +309,7 @@
     .timeline-cards > div{
         width: 82%;
         margin: auto;
-        margin-bottom: 6%;
+        margin-bottom: 8%;
     }
 
     .hero-sobremi{
