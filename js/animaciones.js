@@ -42,17 +42,15 @@
     }, 400);
 });
 
-const hamburguesa = document.getElementById("hamburguesa");
-const nav = document.querySelector("nav");
-const iconoMenu = hamburguesa.querySelector("img");
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburguesa = document.getElementById("hamburguesa");
+  const nav = document.querySelector("nav");
 
-// abrir/cerrar con hamburguesa
-hamburguesa.addEventListener("click", () => {
+  hamburguesa.addEventListener("click", () => {
     nav.classList.toggle("active");
     hamburguesa.classList.toggle("active");
-
     document.body.classList.toggle("menu-open");
-    document.documentElement.classList.toggle("menu-open");
+  });
 });
 
 // cerrar al hacer click en links
