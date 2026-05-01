@@ -211,7 +211,7 @@ nav.active{
     }
 
     .titulo{
-        width: 70%;
+        width: 65%;
         margin: 0;
         margin-bottom: 10px;
         background-color: rgba(0, 0, 0, 0.350);
@@ -224,7 +224,7 @@ nav.active{
         font-size: 18px;
         background-color: rgba(0, 0, 0, 0.350);
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.652);
-        padding: 10px 12px 10px 15px
+        padding: 10px 12px 10px 15px;
         border-radius: 16px 16px 16px 2px;
     }
 
