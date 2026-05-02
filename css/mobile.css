@@ -516,8 +516,8 @@
     .fecha-proyecto h4{
         margin: 0;
         font-size: 17px;
-        font-weight: 500;
-        color: rgba(0,0,0,0.2);
+        font-weight: 450;
+        color: grey;
     }
     
     .categoria-proyecto{
