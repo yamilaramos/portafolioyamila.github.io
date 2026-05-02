@@ -567,7 +567,11 @@
         padding-top: 0px;
     }
 
-    .timeline{
+    .punto-mobile{
+        color: #EBA625;
+    }
+
+    .timeline,  .fecha-desktop{
     display: none;
     }
 
@@ -704,7 +708,7 @@
     font-size:28px;
 }
 
-.btn-cv-mobile, .timeline-mobile, .logos, .fecha-desktop{
+.btn-cv-mobile, .timeline-mobile, .logos{
     display: none;
 }
 
