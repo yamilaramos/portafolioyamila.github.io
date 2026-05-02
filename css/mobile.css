@@ -4,6 +4,9 @@
         height: 60px;
     }
 
+    .b-black{
+        border: none;
+    }
     .b-left{
         margin-top: 10px;
         border-left: #EBA625 2px solid;
@@ -68,7 +71,7 @@
         border-radius: 15px;
         margin: auto;
         width: 95%;
-        border-bottom: #000000 2px solid;
+        border: #000000 2px solid;
     }
 
     .f-size-36{
@@ -407,7 +410,7 @@
         background-position: center;
         border-radius: 35px 35px 0px 0px;
         height: 100%;
-        border: none;
+        border-bottom: #000000 2px solid;
     }
 
     .btn-cv-mobile{
