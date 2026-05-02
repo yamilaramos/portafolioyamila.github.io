@@ -251,7 +251,7 @@
     display: inline-block;
     }
 
-    .decor-line::after{
+    .decor-line-2::after{
         content: "";
         position: absolute;
         left: 0;
