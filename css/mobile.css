@@ -220,7 +220,7 @@
         position: relative;
         z-index: 1;
          background-size: cover;
-         background-position: top center;
+         background-position: top left;
     }
 
     .hero > div{
