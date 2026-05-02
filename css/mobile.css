@@ -451,8 +451,6 @@ nav.active{
         width: fit-content;
         padding: 10px 14px;
         border-radius: 14px;
-    
-        background: rgba(255,255,255,0.92);
         backdrop-filter: blur(8px);
     }
     
@@ -473,7 +471,7 @@ nav.active{
     .fecha-proyecto h4{
         margin: 0;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 500;
         color: #2d2d2d;
     }
     
