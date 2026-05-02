@@ -511,7 +511,7 @@
         margin: 0;
         font-size: 17px;
         font-weight: 500;
-        color: #5d5d5d;
+        color: rgba(0,0,0,0.2);
     }
     
     .categoria-proyecto{
@@ -543,7 +543,7 @@
         width: 1px;
         height: 70%;
     
-        background: #5d5d5d;
+        background: rgba(0,0,0,0.2);
     }
 
     .texto-seccion{
