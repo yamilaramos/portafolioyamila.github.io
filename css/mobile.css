@@ -378,9 +378,9 @@
         background-image: url('../img/timeline-mobile.png');
         background-size: cover;
         background-position: center;
-        border-radius: 26px 26px 0px 0px;
+        border-radius: 35px 35px 0px 0px;
         height: 100%;
-        border-bottom: none;
+        border: none;
     }
 
 /*     .btn-cv-mobile{
