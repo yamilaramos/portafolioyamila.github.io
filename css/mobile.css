@@ -250,7 +250,7 @@
         width: 65%;
         margin: 0;
         margin-bottom: 10px;
-        background: rgba(0, 0, 0, 0.350);
+        background: rgba(0, 0, 0, 0.08);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
 
@@ -267,7 +267,8 @@
     .presentacion{
         margin: auto;
         font-size: 18px;
-        background: rgba(0, 0, 0, 0.350);
+        /* background: rgba(0, 0, 0, 0.350); */
+        background: rgba(0, 0, 0, 0.08);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
 
@@ -594,7 +595,7 @@
     }
 
     .card{
-        background: rgba(0, 0, 0, 0.350);
+        background: rgba(0, 0, 0, 0.08);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
 
