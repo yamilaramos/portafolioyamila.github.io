@@ -228,7 +228,7 @@
         left: 0;
         bottom: -4px;
     
-        width: 100%;
+        width: 40%;
         height: 2px;
     
         background: linear-gradient(
@@ -492,7 +492,7 @@
     
     .fecha-proyecto h4{
         margin: 0;
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 500;
         color: #2d2d2d;
     }
