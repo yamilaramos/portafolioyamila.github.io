@@ -448,7 +448,7 @@ nav.active{
         flex-wrap: wrap;
     
         width: fit-content;
-        padding: 10px 14px;
+        padding: 10px 6px;
         border-radius: 14px;
         backdrop-filter: blur(8px);
     }
