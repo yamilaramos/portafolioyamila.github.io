@@ -703,6 +703,11 @@
     border-top: none ;
 }
 
+    .logo-footer{
+        height: 58px;
+        width: 58px;
+    }
+
 .t-footer-final::before{
     content: "";
     position: absolute;
