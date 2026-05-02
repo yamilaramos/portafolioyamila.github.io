@@ -286,6 +286,10 @@
         font-size: 32px;
     }
 
+    .t-align-center{
+        text-align: left;
+    }
+
     .texto-sobremi{
         margin: auto;
         font-size: 18px;
