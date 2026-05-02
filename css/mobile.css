@@ -578,7 +578,11 @@
         color: #EBA625;
     }
 
-    .timeline,  .fecha-desktop{
+    .fecha-desktop{
+        display:none;
+    }
+
+    .timeline{
     display: none;
     }
 
