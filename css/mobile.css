@@ -290,8 +290,8 @@
         font-size: 32px;
     }
 
-    .t-align-center{
-        text-align: left;
+    .j-content-titulo{
+        justify-content: start;
     }
 
     .texto-sobremi{
