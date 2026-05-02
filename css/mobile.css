@@ -199,6 +199,10 @@
         font-size: 18px;
     }
 
+    .anuncio{
+       height: 40px;
+    }
+
     .hero{
         background-color: #3b2a19;
          background: 
@@ -577,6 +581,7 @@
     .punto-mobile{
         color: #EBA625;
         font-size: 32px;
+        margin-left: 2px;
     }
 
     .fecha-desktop{
