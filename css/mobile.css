@@ -441,6 +441,57 @@ nav.active{
        max-width: 95%;
        margin: 2%;
     }
+    
+    .info-proyecto{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    
+        width: fit-content;
+        padding: 10px 14px;
+        border-radius: 14px;
+    
+        background: rgba(255,255,255,0.92);
+        backdrop-filter: blur(8px);
+    }
+    
+    .fecha-proyecto{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .fecha-proyecto img{
+        width: 32px;
+        height: 32px;
+        padding: 7px;
+        border-radius: 10px;
+        background-color: #fdf0e7;
+    }
+    
+    .fecha-proyecto h4{
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #2d2d2d;
+    }
+    
+    .categoria-proyecto{
+        padding-left: 12px;
+        border-left: 1px solid rgba(0,0,0,0.15);
+    }
+    
+    .categoria-proyecto h4{
+        margin: 0;
+        font-size: 13px;
+        font-weight: 500;
+        color: #EBA625;
+    
+        background-color: #fdf0e7;
+        padding: 8px 12px;
+        border-radius: 999px;
+    }
 
     .texto-seccion{
         font-size: 18px;
