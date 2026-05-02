@@ -4,6 +4,12 @@
         height: 60px;
     }
 
+    .b-left{
+        margin-top: 10px;
+        border-left: #EBA625 2px solid;
+        padding-left: 10px;
+    }
+
     .btn-cv-mobile:hover{
         color: white;
     }
