@@ -234,14 +234,10 @@
         left: 0;
         bottom: -4px;
     
-        width: 25%;
+        width: 20%;
         height: 2px;
     
-        background: linear-gradient(
-            to right,
-            #EBA625,
-            rgba(235,166,37,0.4)
-        );
+        background: #EBA625;
     
         border-radius: 10px;
     }
