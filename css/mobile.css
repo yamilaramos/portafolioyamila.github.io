@@ -12,6 +12,8 @@
     position: relative;
     color: white;
     z-index: 1;
+    margin: 0px 5px;
+    padding: 1px 4px;
     }
     
     .highlight::before{
@@ -155,7 +157,7 @@
     }
 
     .hero-materia, .hero-ada, .hero-soplo{
-        height: 35dvh;
+        height: 34vh;
         border-radius: 15px;
         margin: auto;
         width: 90%;
@@ -392,6 +394,7 @@
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.652);
         padding: 10px 12px 10px 15px;
         border-radius: 16px 16px 16px 2px;
+        line-height: 23px;
     }
 
     
@@ -415,8 +418,8 @@
         margin: auto;
         font-size: 18px;
         text-align: left;
-        max-width: 85%;
-        margin-top: 4%;
+        max-width: 82%;
+        margin-top: 8%;
         margin-bottom: 20px;
         line-height: 25px;
 
@@ -508,6 +511,7 @@
         border-top: none;
         border-right: none;
         border-left: none;
+        margin-top: 10%;
     }
 
     .btn-cv-mobile{
@@ -613,7 +617,7 @@
         margin: 0;
         font-size: 17px;
         font-weight: 450;
-        color: grey;
+        color: #5c5c5c;
     }
     
     .categoria-proyecto{
@@ -766,6 +770,7 @@
     footer{
         height: fit-content;
         padding: 2% 0px;
+        margin-top: 8%;
     } 
     
     .logo{
