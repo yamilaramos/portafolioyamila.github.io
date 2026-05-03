@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// cerrar al hacer click en links
 const links = document.querySelectorAll("nav a");
 
 links.forEach(link => {
@@ -65,7 +64,6 @@ links.forEach(link => {
     });
 });
 
-// 🔥 cerrar al tocar fuera
 nav.addEventListener("click", (e) => {
     if (e.target === nav) {
         nav.classList.remove("active");
