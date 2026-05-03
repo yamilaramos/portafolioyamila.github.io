@@ -1,4 +1,35 @@
-    const elements = document.querySelectorAll(
+document.addEventListener("DOMContentLoaded", () => {
+
+  const hamburguesa = document.getElementById("hamburguesa");
+  const nav = document.querySelector("nav");
+  const links = document.querySelectorAll("nav a");
+  const backToTop = document.getElementById("backToTop");
+
+  /* MENU HAMBURGUESA */
+  hamburguesa.addEventListener("click", () => {
+    nav.classList.toggle("active");
+    hamburguesa.classList.toggle("active");
+    document.body.classList.toggle("menu-open");
+  });
+
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("active");
+      hamburguesa.classList.remove("active");
+      document.body.classList.remove("menu-open");
+    });
+  });
+
+  nav.addEventListener("click", (e) => {
+    if (e.target === nav) {
+      nav.classList.remove("active");
+      hamburguesa.classList.remove("active");
+      document.body.classList.remove("menu-open");
+    }
+  });
+
+  /* SCROLL ANIMATIONS */
+  const elements = document.querySelectorAll(
     '.scroll-fade-down, .scroll-fade-modern'
   );
 
@@ -9,16 +40,11 @@
         observer.unobserve(entry.target);
       }
     });
-  }, {
-    threshold: 0.2
-  });
+  }, { threshold: 0.2 });
 
   elements.forEach(el => observer.observe(el));
 
-  /* VOLVER AL INICIO */
-
-  const backToTop = document.getElementById("backToTop");
-
+  /* BACK TO TOP */
   window.addEventListener("scroll", () => {
     if (window.scrollY > 400) {
       backToTop.classList.add("show");
@@ -34,41 +60,12 @@
     });
   });
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const element = document.querySelector(".fade-modern-load");
-
+  /* FADE LOAD */
+  const element = document.querySelector(".fade-modern-load");
+  if (element) {
     setTimeout(() => {
-        element.classList.add("active");
+      element.classList.add("active");
     }, 400);
-});
+  }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const hamburguesa = document.getElementById("hamburguesa");
-  const nav = document.querySelector("nav");
-
-  hamburguesa.addEventListener("click", () => {
-    nav.classList.toggle("active");
-    hamburguesa.classList.toggle("active");
-    document.body.classList.toggle("menu-open");
-  });
-});
-
-const links = document.querySelectorAll("nav a");
-
-links.forEach(link => {
-    link.addEventListener("click", () => {
-        nav.classList.remove("active");
-        hamburguesa.classList.remove("active");
-        document.body.classList.remove("menu-open");
-        document.documentElement.classList.remove("menu-open");
-    });
-});
-
-nav.addEventListener("click", (e) => {
-    if (e.target === nav) {
-        nav.classList.remove("active");
-        hamburguesa.classList.remove("active");
-        document.body.classList.remove("menu-open");
-        document.documentElement.classList.remove("menu-open");
-    }
 });
