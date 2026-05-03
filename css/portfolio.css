@@ -3,7 +3,7 @@ html { /* rem */
 }
 
 .salto-mobile{
-    display: block; 
+    display: block; /* inline */
 }
 
 .highlight{
@@ -846,7 +846,4 @@ nav, ul{ list-style: none;}
     filter: blur(0);
 }
 
-.salto-mobile{
-    display: inline;
-}
 
