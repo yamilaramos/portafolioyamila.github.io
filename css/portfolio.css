@@ -25,11 +25,11 @@ html { /* rem */
     bottom: 10%;
     
     width: calc(100% + 8px);
-    height: 75%;
+    height: 80%;
     
     background: #EBA625;
     
-    border-radius: 8px 14px 6px 12px;
+    border-radius: 8px 10px 6px 8px;
     
     z-index: -1;
     
