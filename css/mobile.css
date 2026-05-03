@@ -650,7 +650,20 @@
         border-radius: 999px;
     }
 
-    .categoria-proyecto, .categoria-proyecto-2 ::before{
+    .categoria-proyecto ::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    
+        width: 1px;
+        height: 55%;
+    
+        background: #80808099;
+    }
+
+    .categoria-proyecto-2 ::before{
         content: "";
         position: absolute;
         left: 0;
