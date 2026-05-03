@@ -555,7 +555,7 @@
         width: 1px;
         height: 70%;
     
-        background: rgba(0,0,0,0.2);
+        background: grey;
     }
 
     .texto-seccion{
