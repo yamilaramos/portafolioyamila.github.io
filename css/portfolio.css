@@ -511,7 +511,15 @@ strong{
 }
 
 .hero-sobremi{
-    background-image: url('/img/timeline.png');
+
+    background: 
+        linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.4) 40%,
+        rgba(0, 0, 0, 0.1) 100%
+        ),
+        url('/img/timeline.png');
     background-color: #EBA625;
     background-size: cover;
     background-position: center;
@@ -875,8 +883,8 @@ nav, ul{ list-style: none;}
 }
 
 .back-to-top img{
-    width: 38px;
-    padding-top: 3px;
+    width: 34px;
+    margin: auto;
 }
 
 .back-to-top.show {
