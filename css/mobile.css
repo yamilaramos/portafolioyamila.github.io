@@ -1,5 +1,78 @@
 @media screen and (max-width:768px){
 
+    .highlight{
+    position: relative;
+    color: white;
+    z-index: 1;
+    }
+    
+    .highlight::before{
+        content: "";
+        position: absolute;
+        left: -4px;
+        bottom: 10%;
+    
+        width: calc(100% + 8px);
+        height: 70%;
+    
+        background: #EBA625;
+    
+        border-radius: 8px 14px 6px 12px;
+    
+        z-index: -1;
+    
+        transform: scaleX(0);
+        transform-origin: left;
+    
+        filter: blur(0.3px);
+    
+        animation: highlightReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    
+    .highlight::after{
+        content: "";
+        position: absolute;
+        left: -4px;
+        bottom: 10%;
+    
+        width: calc(100% + 8px);
+        height: 65%;
+    
+        background: repeating-linear-gradient(
+            -45deg,
+            rgba(255,255,255,0.05),
+            rgba(255,255,255,0.05) 2px,
+            transparent 2px,
+            transparent 4px
+        );
+    
+        border-radius: inherit;
+    
+        z-index: -1;
+        opacity: 0.4;
+    
+        transform: scaleX(0);
+        transform-origin: left;
+    
+        animation: highlightReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    
+    @keyframes highlightReveal{
+        to{
+            transform: scaleX(1);
+        }
+    }
+    
+    .delay-1::before,
+    .delay-1::after{
+        animation-delay: 0.2s;
+    }
+    
+    .delay-2::before,
+    .delay-2::after{
+        animation-delay: 0.6s;
+    }
+    
     header{
         height: 60px;
     }
@@ -312,6 +385,8 @@
         padding: 10px 12px 10px 15px;
         border-radius: 16px 16px 16px 2px;
     }
+
+    
 
     .salto-mobile{
         display: block; 
@@ -738,13 +813,11 @@
     align-items: start;
 }
 
-.fade-in-down, .fade-modern-load{
+.fade-modern-load{
         opacity: 0;
         transform: translateY(-8px);
         transition: all 0.25s ease;
     }
-
-
 }
 
 
