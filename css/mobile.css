@@ -787,14 +787,14 @@
         rgba(235,166,37,1) 100%);
         
         border: 2px solid black;
-        border-radius: 20px;
+        border-radius: 25px;
         padding: 6px 18px 8px 18px;
         font-weight: 500;
         color: white;
         
         align-items: center;
         gap: 0px;
-        font-size: 18px;
+        font-size: 17px;
        
         margin-bottom: 15%;
     }
