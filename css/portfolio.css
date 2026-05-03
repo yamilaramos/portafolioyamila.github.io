@@ -131,7 +131,7 @@ a:hover{ color: black; transition: ease; }
   bottom: -2px;
 
   width: 100%;
-  height: 3px;
+  height: 2.5px;
   background-color: #EBA625;
 
   transform: scaleX(0);
