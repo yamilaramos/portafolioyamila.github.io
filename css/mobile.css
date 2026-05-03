@@ -4,6 +4,10 @@
         height: 60px;
     }
 
+    .contenedor-hydrangea{
+        margin-top: 0px;
+    }
+
     .video{margin: auto;}
 
     .b-black{
@@ -73,7 +77,7 @@
         height: 35dvh;
         border-radius: 15px;
         margin: auto;
-        width: 95%;
+        width: 90%;
         border: #000000 2px solid;
     }
 
