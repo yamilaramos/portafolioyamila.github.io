@@ -277,7 +277,7 @@ strong{
 
 /* PROPIEDADES DEL FLEX */
 /* Espaciado horizontal */
-.jcontent-center{justify-content: center;}
+.jcontent-center, .j-content-titulo{justify-content: center;}
 .jcontent-between{justify-content: space-between;}
 .jcontent-evenly{justify-content:space-evenly;}
 
