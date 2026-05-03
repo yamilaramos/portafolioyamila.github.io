@@ -8,6 +8,7 @@ html { /* rem */
 }
 
 .salto-mobile-desactivado{ display: inline;}
+.punto-mobile{ color: #EBA625;}
 
 .highlight{
     position: relative;
