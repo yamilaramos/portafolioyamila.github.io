@@ -7,6 +7,25 @@ html { /* rem */
     margin-top: 10px;
 }
 
+.decor-line{
+    position: relative;
+    display: inline-block;
+}
+
+.decor-line::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    
+    width: 20%;
+    height: 2px;
+    
+    background: #EBA625;
+    
+    border-radius: 10px;
+}
+
 .salto-mobile-desactivado{ display: inline;}
 .punto-mobile{ color: #EBA625;}
 
