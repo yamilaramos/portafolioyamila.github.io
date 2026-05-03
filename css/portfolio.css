@@ -1,42 +1,41 @@
-html {
+html { /* rem */
     font-size: 12.5px;
 }
 
 .salto-mobile{
-        display: block; 
-    }
+    display: block; 
+}
 
-
-    .highlight{
+.highlight{
     position: relative;
     color: white;
     z-index: 1;
     margin: 0px 5px;
     padding: 1px 4px;
-    }
+}
     
-    .highlight::before{
-        content: "";
-        position: absolute;
-        left: -4px;
-        bottom: 10%;
+.highlight::before{
+    content: "";
+    position: absolute;
+    left: -4px;
+    bottom: 10%;
     
-        width: calc(100% + 8px);
-        height: 75%;
+    width: calc(100% + 8px);
+    height: 75%;
     
-        background: #EBA625;
+    background: #EBA625;
     
-        border-radius: 8px 14px 6px 12px;
+    border-radius: 8px 14px 6px 12px;
     
-        z-index: -1;
+    z-index: -1;
     
-        transform: scaleX(0);
-        transform-origin: left;
+    transform: scaleX(0);
+    transform-origin: left;
     
-        filter: blur(0.3px);
+    filter: blur(0.3px);
     
-        animation: highlightReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-    }
+    animation: highlightReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
     
     .highlight::after{
         content: "";
@@ -102,9 +101,9 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    /* -webkit-user-drag: none;
+    -webkit-user-drag: none;
     user-select: none;
-    pointer-events: none; */
+    pointer-events: none;
 }
 
 .titulo-portafolio img {
@@ -174,6 +173,24 @@ a:hover{ color: black; transition: ease; }
         transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
         box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1),
         color 0.30s ease;
+
+    
+    display: inline-flex;             
+    align-items: center;  /* centra vertical */
+    justify-content: center;
+    gap: 9px;                          
+
+    background: linear-gradient(131deg,
+        rgba(235,166,37,1) 0%,
+        rgba(255,178,36,1) 50%,
+        rgba(235,166,37,1) 100%);     
+}
+
+.btn-cv img{
+        width: 30px;
+        height: 30px;
+        padding-bottom: 2px;
+        object-fit: contain;
 }
 
 .btn-cv:hover{
