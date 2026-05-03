@@ -1,5 +1,13 @@
 @media screen and (max-width:768px){
 
+    .fade-in-down{
+        animation: none !important;
+        transition: none !important;
+
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    
     .highlight{
     position: relative;
     color: white;
