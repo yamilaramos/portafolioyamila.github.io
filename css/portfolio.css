@@ -27,7 +27,7 @@ html { /* rem */
 }
 
 .salto-mobile-desactivado{ display: inline;}
-.punto-mobile{ color: #EBA625;}
+.punto-mobile{ color: #EBA625; margin-left: 2px;}
 
 .highlight{
     position: relative;
@@ -506,14 +506,7 @@ strong{
 }
 
 .hero{
-    background: 
-        linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.4) 40%,
-        rgba(0, 0, 0, 0.1) 100%
-        ),
-        url('/img/hero-final.png');
+    background: url('/img/hero-final.png');
     background-color: #fefaf6;
     background-size: cover;
     background-position: center;
