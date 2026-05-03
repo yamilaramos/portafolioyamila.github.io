@@ -7,12 +7,12 @@ html { /* rem */
     margin-top: 10px;
 }
 
-.decor-line{
+.decor-line-2{
     position: relative;
     display: inline-block;
 }
 
-.decor-line::after{
+.decor-line-2::after{
     content: "";
     position: absolute;
     left: 0;
