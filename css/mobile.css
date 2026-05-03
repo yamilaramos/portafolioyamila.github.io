@@ -182,9 +182,10 @@
         align-items: center;
     
         opacity: 0;
-        visibility: hidden;   /* 👈 clave */
+        visibility: hidden;
+        z-index: 15;
+        
         pointer-events: none;
-    
         transition: 0.3s ease;
     }
     
@@ -560,7 +561,7 @@
     }
 
     nav.active li{
-    transform:translateY(-10);
+    transform:translateY(0);
     opacity:1;
     }
 
@@ -662,7 +663,7 @@
         border-radius: 999px;
     }
 
-    .categoria-proyecto ::before{
+    .categoria-proyecto::before{
         content: "";
         position: absolute;
         left: 0;
@@ -675,7 +676,7 @@
         background: #80808099;
     }
 
-    .categoria-proyecto-2 ::before{
+    .categoria-proyecto-2::before{
         content: "";
         position: absolute;
         left: 0;
