@@ -506,7 +506,14 @@ strong{
 }
 
 .hero{
-    background-image: url('/img/hero-final.png');
+    background: 
+        linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.4) 40%,
+        rgba(0, 0, 0, 0.1) 100%
+        ),
+        url('/img/hero-final.png');
     background-color: #fefaf6;
     background-size: cover;
     background-position: center;
@@ -530,7 +537,6 @@ strong{
 }
 
 .hero-sobremi{
-
     background: 
         linear-gradient(
         to top,
