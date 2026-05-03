@@ -157,7 +157,7 @@
     }
 
     .hero-materia, .hero-ada, .hero-soplo{
-        height: 34vh;
+        height: 35dvh;
         border-radius: 15px;
         margin: auto;
         width: 90%;
@@ -620,7 +620,7 @@
         color: #5c5c5c;
     }
     
-    .categoria-proyecto{
+    .categoria-proyecto, .categoria-proyecto-2{
         display: flex;
         align-items: center;
         gap: 10px;
@@ -639,7 +639,18 @@
         border-radius: 999px;
     }
 
-    .categoria-proyecto::before{
+    .categoria-proyecto-2 h4{
+        margin: 0;
+        font-size: 17px;
+        font-weight: 500;
+        color: #2c4e33;
+    
+        background-color: #f1f2ec;
+        padding: 8px 12px;
+        border-radius: 999px;
+    }
+
+    .categoria-proyecto, .categoria-proyecto-2 ::before{
         content: "";
         position: absolute;
         left: 0;
