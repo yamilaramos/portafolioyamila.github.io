@@ -4,6 +4,7 @@ html { /* rem */
 
 .salto-mobile{
     display: block; /* inline */
+    margin-top: 10px;
 }
 
 .highlight{
@@ -224,9 +225,41 @@ body{
     margin-left: 8%;
     padding: 10px 10px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.652);
-    background-color: rgba(0, 0, 0, 0.285);
     border-radius: 24px 24px 24px 0;
+    
+    background:  rgba(0, 0, 0, 0.286);
+
+    backdrop-filter: blur(18px) saturate(140%) brightness(110%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%) brightness(110%);
+
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.18),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.04);
+
+    color: rgba(255, 255, 255, 0.92);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
+
+    transition: all 0.3s ease;
 }
+
+.titulo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.25) 0%,
+        rgba(255, 255, 255, 0.08) 30%,
+        transparent 60%
+    );
+
+    opacity: 0.25;
+    pointer-events: none;
+}
+
 
 .presentacion{
     font-size: 1.72rem;
@@ -234,8 +267,40 @@ body{
     margin-left: 8%;
     padding: 12px 14px 12px 24px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.652);
-    background-color: rgba(0, 0, 0, 0.285); /* 242 */
+
     border-radius: 24px 24px 24px 0;
+
+    background:  rgba(0, 0, 0, 0.286);
+
+    backdrop-filter: blur(18px) saturate(140%) brightness(110%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%) brightness(110%);
+
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.18),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.04);
+
+    color: rgba(255, 255, 255, 0.92);
+    /* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
+
+    transition: all 0.3s ease;
+}
+
+.presentacion::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.25) 0%,
+        rgba(255, 255, 255, 0.08) 30%,
+        transparent 60%
+    );
+
+    opacity: 0.25;
+    pointer-events: none;
 }
 
 .contenedor-texto{ 
@@ -429,7 +494,9 @@ strong{
 }
 
 .b-left{
-    border-left: 4px solid #EBA625;
+    border-left: 3px solid #EBA625;
+    border-radius: 2px 4px 4px 2px;
+    padding-left: 10px;
 }
 
 .hero{
