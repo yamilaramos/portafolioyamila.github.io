@@ -3,30 +3,36 @@ document.addEventListener("DOMContentLoaded", () => {
   const hamburguesa = document.getElementById("hamburguesa");
   const nav = document.querySelector("nav");
   const links = document.querySelectorAll("nav a");
-  const backToTop = document.getElementById("backToTop");
 
-  /* MENU HAMBURGUESA */
+  // Toggle menú
   hamburguesa.addEventListener("click", () => {
     nav.classList.toggle("active");
     hamburguesa.classList.toggle("active");
     document.body.classList.toggle("menu-open");
+    document.documentElement.classList.toggle("menu-open");
   });
 
+  // Cerrar al hacer click en links
   links.forEach(link => {
     link.addEventListener("click", () => {
       nav.classList.remove("active");
       hamburguesa.classList.remove("active");
       document.body.classList.remove("menu-open");
+      document.documentElement.classList.remove("menu-open");
     });
   });
 
+  // Cerrar tocando fondo
   nav.addEventListener("click", (e) => {
     if (e.target === nav) {
       nav.classList.remove("active");
       hamburguesa.classList.remove("active");
       document.body.classList.remove("menu-open");
+      document.documentElement.classList.remove("menu-open");
     }
   });
+
+});
 
   /* SCROLL ANIMATIONS */
   const elements = document.querySelectorAll(
