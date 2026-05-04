@@ -237,7 +237,6 @@
     }
 
     .hamburguesa{
-        display: none;
         position: relative;
         z-index: 200;
         display: flex;
