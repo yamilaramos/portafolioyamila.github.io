@@ -5,8 +5,9 @@ html { /* rem */
 .m-top-logo{
     margin-top: 10px;
 }
+
 .locacion{
-    rgin-bottom: 4px;
+    margin-bottom: 4px;
     height: 32px;
     width: 32px;
     margin-right: 4px;
