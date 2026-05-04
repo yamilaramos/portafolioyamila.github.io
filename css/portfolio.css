@@ -333,14 +333,14 @@ body{
 .timeline::after {
     content: "";
     position: absolute;
-    top: 120px;
-    left: 110px;
+    top: 110px;
+    left: 95px;
     width: 22px;
     height: 22px;
     border-radius: 50%;
     background: #ffffff;
     transform: translateY(-50%);
-    box-shadow: 330px 0 0 white, 670px 0 0 white;
+    box-shadow: 345px 0 0 white, 690px 0 0 white;
 }
 
 .gap{
