@@ -737,7 +737,7 @@
         display:none;
     }
 
-    .timeline{
+    .timeline, .texto-adicional{
     display: none;
     }
 
