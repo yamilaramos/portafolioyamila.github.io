@@ -1,6 +1,6 @@
 @media screen and (max-width:768px){
 
-    .fade-in-down{
+    .fade-in-down, .fade-modern-load{
         animation: none !important;
         transition: none !important;
 
@@ -479,8 +479,8 @@
         transform: translateX(-50%);
 
         box-shadow:
-            0 253px 0 white,
-            0 506px 0 white; /* doble de px */
+            0 260px 0 white,
+            0 510px 0 white; /* doble de px */
     }
 
     .fondo{
@@ -864,11 +864,6 @@
     align-items: start;
 }
 
-.fade-modern-load{
-        opacity: 0;
-        transform: translateY(-8px);
-        transition: all 1s ease;
-    }
 }
 
 
