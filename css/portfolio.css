@@ -702,6 +702,7 @@ footer{
     border-radius: 25px;
     transition: all 0.3s ease;
     font-size: 1.55rem;
+    margin-bottom: 10%;
 }
 
 .btn-footer:hover{
