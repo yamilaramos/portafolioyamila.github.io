@@ -708,13 +708,12 @@ footer{
 
 nav, ul{ list-style: none;}
 
-
 .mapa{
-    border: 12px solid rgba(255, 255, 255, 0.909);
+    border: 8px solid rgba(255, 255, 255, 0.909);
     border-radius: 50%;
     margin: auto;
-    height: 350px;
-    width: 370px;
+    height: 280px;
+    width: 290px;
 }
 
 .contenedor-light{
