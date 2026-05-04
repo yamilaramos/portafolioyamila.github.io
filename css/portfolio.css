@@ -43,6 +43,8 @@ html { /* rem */
     z-index: 1;
     margin: 0px 5px;
     padding: 2px 4px;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 55%);
+)
 }
     
 .highlight::before{
