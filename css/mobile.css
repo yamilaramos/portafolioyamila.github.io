@@ -1,12 +1,19 @@
 @media screen and (max-width:768px){
 
-    .fade-in-down, .fade-modern-load{
+    .fade-in-down{
         animation: none !important;
         transition: none !important;
 
         opacity: 1 !important;
         transform: none !important;
     }
+
+    .fade-modern-load {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+}
     
     .highlight{
     position: relative;
