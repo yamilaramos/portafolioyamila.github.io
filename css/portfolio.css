@@ -564,7 +564,14 @@ strong{
 }
 
 .hero-sobremi{
-    background: url('../img/hero-sobremi.png');
+    /* background: url('../img/hero-sobremi.png'); */
+     background: 
+        linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.4) 40%,
+        rgba(0, 0, 0, 0.1) 100%
+        ), url('../img/hero-sobremi.png');
     background-color: #EBA625;
     background-size: cover;
     background-position: center;
